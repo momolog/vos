@@ -144,7 +144,8 @@ module Vos
         end
 
         def normalize_path path
-          path.sub(/^\//, '')
+          path = path.sub(/^\//, '')
+          path == '' ? nil : path
         end
     end
   end
