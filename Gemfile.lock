@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    vos (0.0.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  vos!
+
+BUNDLED WITH
+   1.10.6
